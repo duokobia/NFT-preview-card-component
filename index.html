@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-     <!-- Favicon -->
-     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
 
-     <!-- CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
 
-      <!-- Google Fonts Links -->
+    <!-- Google Fonts Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&&display=swap" rel="stylesheet">
@@ -21,10 +22,43 @@
 
     <title>Frontend Mentor | NFT Preview Card Component</title>
 </head>
+
 <body>
-    <main>
-        
+    <main class="container">
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-image">
+                    <div class="card-image-overlay">
+                        <img src="/images/icon-view.svg" alt="view-icon" class="icon-view" />
+                    </div>
+                </div>
+                <div class="card-article">
+                    <h1 class="card-header">Equilibrum #3429</h1>
+                    <p class="card-paragraph">Our Equilibrium collection promotes balance and calm.</p>
+                    <div class="card-price-timeline">
+                        <div>
+                            <img src="images/icon-ethereum.svg" alt="Icon" class="ethereum-icon" />
+                            <span class="ethereum-price">0.0041 ETH</span>
+                        </div>
+                        <div class="card-timeline">
+                            <img src="images/icon-clock.svg" alt="Icon" class="clock-icon" />
+                            <span class="timeline">3 days left</span>
+                        </div>
+                    </div>
+                    <div class="card-avatar">
+                        <div class="card-avatar-row">
+                            <img src="images/image-avatar.png" alt="avatar" class="card-avatar-image" />
+                            <span class="card-creation">Creation of</span>
+                            <span class="card-name">Jules Wyvern</span>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    
+
 </body>
+
 </html>

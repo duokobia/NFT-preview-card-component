@@ -1,2 +1,4 @@
 #######
 # These are the files to be ignored
+
+.DS_store
